@@ -111,22 +111,22 @@
                         <li><a href="./index.php?view=home"><i class='fa fa-home'></i> <span>Inicio</span></a></li>
             <li><a href="./?view=sell"><i class='fa fa-usd'></i> <span>Realizar Gastos</span></a></li>
             <!--<li><a href="./?view=sells"><i class='fa fa-shopping-cart'></i> <span>Ventas</span></a></li>-->
-            <!--<li><a href="./?view=box"><i class='fa fa-cube'></i> <span>Caja</span></a></li>-->
-            <li><a href="./?view=products"><i class='fa fa-glass'></i> <span>Productos</span></a></li>
+            <!--<li><a href="./?view=box"><i class='fa fa-cube'></i> <span>Caja</span></a></li>
+            <li><a href="./?view=products"><i class='fa fa-glass'></i> <span>Productos</span></a></li>-->
 
             <li class="treeview">
-              <a href="#"><i class='fa fa-database'></i> <span>Catalogos</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <a href="#"><i class='fa fa-database'></i> <span>Categorías</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="./?view=categories">Categorias</a></li>
-                <li><a href="./?view=clients">Clientes</a></li>
-                <li><a href="./?view=providers">Proveedores</a></li>
+                <li><a href="./?view=categories">Categorías de salida</a></li>
+                <li><a href="./?view=products">Categorías de Ingreso</a></li>
+                <!--<li><a href="./?view=providers">Proveedores</a></li>-->
               </ul>
             </li>
 
             <li class="treeview">
-              <a href="#"><i class='fa fa-area-chart'></i> <span>Inventario</span> <i class="fa fa-angle-left pull-right"></i></a>
+              <a href="#"><i class='fa fa-area-chart'></i> <span>Billetera</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="./?view=inventary">Inventario</a></li>
+                <li><a href="./?view=inventary">Billetera</a></li>
                 <li><a href="./?view=re">Abastecer</a></li>
                 <li><a href="./?view=res">Abastecimientos</a></li>
               </ul>
@@ -134,8 +134,8 @@
                         <li class="treeview">
               <a href="#"><i class='fa fa-file-text-o'></i> <span>Reportes</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
-                <li><a href="./?view=reports">Inventario</a></li>
-                <li><a href="./?view=sellreports">Ventas</a></li>
+                <li><a href="./?view=reports">Billetera</a></li>
+                <!--<li><a href="./?view=sellreports">Ventas</a></li>-->
               </ul>
             </li>
 

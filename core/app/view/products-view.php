@@ -61,28 +61,28 @@ if($px<=$npaginas):
 <br><table class="table table-bordered table-hover">
 	<thead>
 		<th>Codigo</th>
-		<th>Imagen</th>
+		<!--<th>Imagen</th>-->
 		<th>Nombre</th>
-		<th>Precio Entrada</th>
+		<!--<th>Precio Entrada</th>
 		<th>Precio Salida</th>
 		<th>Categoria</th>
-		<th>Minima</th>
+		<th>Minima</th>-->
 		<th>Activo</th>
 		<th></th>
 	</thead>
 	<?php foreach($curr_products as $product):?>
 	<tr>
 		<td><?php echo $product->barcode; ?></td>
-		<td>
+		<!--<td>
 			<?php if($product->image!=""):?>
 				<img src="storage/products/<?php echo $product->image;?>" style="width:64px;">
 			<?php endif;?>
-		</td>
+		</td>-->
 		<td><?php echo $product->name; ?></td>
-		<td>S/. <?php echo number_format($product->price_in,2,'.',','); ?></td>
+		<!--<td>S/. <?php echo number_format($product->price_in,2,'.',','); ?></td>
 		<td>S/. <?php echo number_format($product->price_out,2,'.',','); ?></td>
 		<td><?php if($product->category_id!=null){echo $product->getCategory()->name;}else{ echo "<center>----</center>"; }  ?></td>
-		<td><?php echo $product->inventary_min; ?></td>
+		<td><?php echo $product->inventary_min; ?></td>-->
 		<td><?php if($product->is_active): ?><i class="fa fa-check"></i><?php endif;?></td>
 		
 

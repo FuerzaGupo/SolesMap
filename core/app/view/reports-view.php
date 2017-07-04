@@ -82,7 +82,7 @@ $products = ProductData::getAll();
 <table class="table table-bordered">
 	<thead>
 		<th>Id</th>
-		<th>Producto</th>
+		<th>Categorías</th>
 		<th>Importe</th>
 		<th>Operacion</th>
 		<th>Fecha</th>

@@ -35,14 +35,14 @@ foreach($products as $product){
           <!-- small box -->
           <div class="small-box bg-purple">
             <div class="inner">
-              <h3><?php echo count(PersonData::getClients());?></h3>
+              <h3><?php echo count(UserData::getAll());?></h3>
 
-              <p>Clientes</p>
+              <p>Usuarios</p>
             </div>
             <div class="icon">
               <i class="ion ion-stats-bars"></i>
             </div>
-            <a href="./?view=addphoto" class="small-box-footer">Ver mas <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="./?view=users" class="small-box-footer">Ver mas <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -50,14 +50,14 @@ foreach($products as $product){
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3><?php echo count(PersonData::getProviders());?></h3>
+              <h3><?php echo count(ProductData::getAll());?></h3>
 
-              <p>Proveedores</p>
+              <p>Billetera</p>
             </div>
             <div class="icon">
               <i class="ion ion-person-add"></i>
             </div>
-            <a href="./?view=providers" class="small-box-footer">Ver mas <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="./?view=inventary" class="small-box-footer">Ver mas <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -67,7 +67,7 @@ foreach($products as $product){
             <div class="inner">
               <h3><?php echo count(CategoryData::getAll());?></h3>
 
-              <p>Categorias</p>
+              <p>Categorias de salida</p>
             </div>
             <div class="icon">
               <i class="ion ion-pie-graph"></i>

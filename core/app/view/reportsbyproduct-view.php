@@ -85,8 +85,8 @@ for($i=0;$i<$npaginas;$i++){
 }else{
 	?>
 	<div class="jumbotron">
-		<h2>No hay productos</h2>
-		<p>No se han agregado productos a la base de datos, puedes agregar uno dando click en el boton <b>"Agregar Producto"</b>.</p>
+		<h2>No hay categorías</h2>
+		<p>No se han agregado categorías a la base de datos, puedes agregar uno dando click en el boton <b>"Agregar Producto"</b>.</p>
 	</div>
 	<?php
 }

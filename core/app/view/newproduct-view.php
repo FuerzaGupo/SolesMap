@@ -3,29 +3,29 @@ $categories = CategoryData::getAll();
     ?>
 <div class="row">
 	<div class="col-md-12">
-	<h1>Nuevo Producto</h1>
+	<h1>Nueva Categoría</h1>
 	<br>
 		<form class="form-horizontal" method="post" enctype="multipart/form-data" id="addproduct" action="index.php?view=addproduct" role="form">
 
-  <div class="form-group">
+  <!--<div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Imagen</label>
     <div class="col-md-6">
       <input type="file" name="image" id="image" placeholder="">
     </div>
-  </div>
+  </div>-->
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Codigo de Barras*</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Codigo*</label>
     <div class="col-md-6">
-      <input type="text" name="barcode" id="product_code" class="form-control" id="barcode" placeholder="Codigo de Barras del Producto">
+      <input type="text" name="barcode" id="product_code" class="form-control" id="barcode" placeholder="Codigo de la categoría">
     </div>
   </div>
   <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Nombre*</label>
     <div class="col-md-6">
-      <input type="text" name="name" required class="form-control" id="name" placeholder="Nombre del Producto">
+      <input type="text" name="name" required class="form-control" id="name" placeholder="Nombre de la categoría">
     </div>
   </div>
-  <div class="form-group">
+  <!--<div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Categoria</label>
     <div class="col-md-6">
     <select name="category_id" class="form-control">
@@ -71,18 +71,18 @@ $categories = CategoryData::getAll();
     <div class="col-md-6">
       <input type="text" name="inventary_min" class="form-control" id="inputEmail1" placeholder="Minima en Inventario (Default 10)">
     </div>
-  </div>
+  </div>-->
 
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Inventario inicial:</label>
+    <label for="inputEmail1" class="col-lg-2 control-label">Importe inicial:</label>
     <div class="col-md-6">
-      <input type="text" name="q" class="form-control" id="inputEmail1" placeholder="Inventario inicial">
+      <input type="text" name="q" class="form-control" id="inputEmail1" placeholder="Importe inicial">
     </div>
   </div>
 
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
-      <button type="submit" class="btn btn-primary">Agregar Producto</button>
+      <button type="submit" class="btn btn-primary">Agregar Categoría</button>
     </div>
   </div>
 </form>
